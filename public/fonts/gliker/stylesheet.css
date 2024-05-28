@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'Gliker Black Semi Condensed';
+    src: url('Gliker-BlackSemiCondensed.eot');
+    src: local('Gliker Black Semi Condensed'), local('Gliker-BlackSemiCondensed'),
+        url('Gliker-BlackSemiCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BlackSemiCondensed.woff2') format('woff2'),
+        url('Gliker-BlackSemiCondensed.woff') format('woff'),
+        url('Gliker-BlackSemiCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Black Extra Expanded';
+    src: url('Gliker-BlackExtraExpanded.eot');
+    src: local('Gliker Black Extra Expanded'), local('Gliker-BlackExtraExpanded'),
+        url('Gliker-BlackExtraExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BlackExtraExpanded.woff2') format('woff2'),
+        url('Gliker-BlackExtraExpanded.woff') format('woff'),
+        url('Gliker-BlackExtraExpanded.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Black Semi Expanded';
+    src: url('Gliker-BlackSemiExpanded.eot');
+    src: local('Gliker Black Semi Expanded'), local('Gliker-BlackSemiExpanded'),
+        url('Gliker-BlackSemiExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BlackSemiExpanded.woff2') format('woff2'),
+        url('Gliker-BlackSemiExpanded.woff') format('woff'),
+        url('Gliker-BlackSemiExpanded.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Bold Extra Condensed';
+    src: url('Gliker-BoldExtraCondensed.eot');
+    src: local('Gliker Bold Extra Condensed'), local('Gliker-BoldExtraCondensed'),
+        url('Gliker-BoldExtraCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BoldExtraCondensed.woff2') format('woff2'),
+        url('Gliker-BoldExtraCondensed.woff') format('woff'),
+        url('Gliker-BoldExtraCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Black Expanded';
+    src: url('Gliker-BlackExpanded.eot');
+    src: local('Gliker Black Expanded'), local('Gliker-BlackExpanded'),
+        url('Gliker-BlackExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BlackExpanded.woff2') format('woff2'),
+        url('Gliker-BlackExpanded.woff') format('woff'),
+        url('Gliker-BlackExpanded.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Bold Expanded';
+    src: url('Gliker-BoldExpanded.eot');
+    src: local('Gliker Bold Expanded'), local('Gliker-BoldExpanded'),
+        url('Gliker-BoldExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BoldExpanded.woff2') format('woff2'),
+        url('Gliker-BoldExpanded.woff') format('woff'),
+        url('Gliker-BoldExpanded.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker';
+    src: url('Gliker-Bold.eot');
+    src: local('Gliker Bold'), local('Gliker-Bold'),
+        url('Gliker-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-Bold.woff2') format('woff2'),
+        url('Gliker-Bold.woff') format('woff'),
+        url('Gliker-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Bold SemiCondensed';
+    src: url('Gliker-BoldSemiCondensed.eot');
+    src: local('Gliker Bold SemiCondensed'), local('Gliker-BoldSemiCondensed'),
+        url('Gliker-BoldSemiCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BoldSemiCondensed.woff2') format('woff2'),
+        url('Gliker-BoldSemiCondensed.woff') format('woff'),
+        url('Gliker-BoldSemiCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Black Extra Condensed';
+    src: url('Gliker-BlackExtraCondensed.eot');
+    src: local('Gliker Black Extra Condensed'), local('Gliker-BlackExtraCondensed'),
+        url('Gliker-BlackExtraCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BlackExtraCondensed.woff2') format('woff2'),
+        url('Gliker-BlackExtraCondensed.woff') format('woff'),
+        url('Gliker-BlackExtraCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker';
+    src: url('Gliker-Black.eot');
+    src: local('Gliker Black'), local('Gliker-Black'),
+        url('Gliker-Black.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-Black.woff2') format('woff2'),
+        url('Gliker-Black.woff') format('woff'),
+        url('Gliker-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Bold Condensed';
+    src: url('Gliker-BoldCondensed.eot');
+    src: local('Gliker Bold Condensed'), local('Gliker-BoldCondensed'),
+        url('Gliker-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BoldCondensed.woff2') format('woff2'),
+        url('Gliker-BoldCondensed.woff') format('woff'),
+        url('Gliker-BoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Black Condensed';
+    src: url('Gliker-BlackCondensed.eot');
+    src: local('Gliker Black Condensed'), local('Gliker-BlackCondensed'),
+        url('Gliker-BlackCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BlackCondensed.woff2') format('woff2'),
+        url('Gliker-BlackCondensed.woff') format('woff'),
+        url('Gliker-BlackCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Bold Extra Expanded';
+    src: url('Gliker-BoldExtraExpanded.eot');
+    src: local('Gliker Bold Extra Expanded'), local('Gliker-BoldExtraExpanded'),
+        url('Gliker-BoldExtraExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BoldExtraExpanded.woff2') format('woff2'),
+        url('Gliker-BoldExtraExpanded.woff') format('woff'),
+        url('Gliker-BoldExtraExpanded.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Condensed';
+    src: url('Gliker-RegularCondensed.eot');
+    src: local('Gliker Regular Condensed'), local('Gliker-RegularCondensed'),
+        url('Gliker-RegularCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-RegularCondensed.woff2') format('woff2'),
+        url('Gliker-RegularCondensed.woff') format('woff'),
+        url('Gliker-RegularCondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Semi Condensed';
+    src: url('Gliker-RegularSemiCondensed.eot');
+    src: local('Gliker Regular Semi Condensed'), local('Gliker-RegularSemiCondensed'),
+        url('Gliker-RegularSemiCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-RegularSemiCondensed.woff2') format('woff2'),
+        url('Gliker-RegularSemiCondensed.woff') format('woff'),
+        url('Gliker-RegularSemiCondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Extra Condensed';
+    src: url('Gliker-RegularExtraCondensed.eot');
+    src: local('Gliker Regular Extra Condensed'), local('Gliker-RegularExtraCondensed'),
+        url('Gliker-RegularExtraCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-RegularExtraCondensed.woff2') format('woff2'),
+        url('Gliker-RegularExtraCondensed.woff') format('woff'),
+        url('Gliker-RegularExtraCondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker SemiBold Extra Condensed';
+    src: url('Gliker-SemiBoldExtraCondensed.eot');
+    src: local('Gliker SemiBold Extra Condensed'), local('Gliker-SemiBoldExtraCondensed'),
+        url('Gliker-SemiBoldExtraCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-SemiBoldExtraCondensed.woff2') format('woff2'),
+        url('Gliker-SemiBoldExtraCondensed.woff') format('woff'),
+        url('Gliker-SemiBoldExtraCondensed.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker SemiBold Semi Expanded';
+    src: url('Gliker-SemiBoldSemiExpanded.eot');
+    src: local('Gliker SemiBold Semi Expanded'), local('Gliker-SemiBoldSemiExpanded'),
+        url('Gliker-SemiBoldSemiExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-SemiBoldSemiExpanded.woff2') format('woff2'),
+        url('Gliker-SemiBoldSemiExpanded.woff') format('woff'),
+        url('Gliker-SemiBoldSemiExpanded.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker SemiBold Semi Condensed';
+    src: url('Gliker-SemiBoldSemiCondensed.eot');
+    src: local('Gliker SemiBold Semi Condensed'), local('Gliker-SemiBoldSemiCondensed'),
+        url('Gliker-SemiBoldSemiCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-SemiBoldSemiCondensed.woff2') format('woff2'),
+        url('Gliker-SemiBoldSemiCondensed.woff') format('woff'),
+        url('Gliker-SemiBoldSemiCondensed.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Expanded';
+    src: url('Gliker-RegularExpanded.eot');
+    src: local('Gliker Regular Expanded'), local('Gliker-RegularExpanded'),
+        url('Gliker-RegularExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-RegularExpanded.woff2') format('woff2'),
+        url('Gliker-RegularExpanded.woff') format('woff'),
+        url('Gliker-RegularExpanded.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker SemiBold Condensed';
+    src: url('Gliker-SemiBoldCondensed.eot');
+    src: local('Gliker SemiBold Condensed'), local('Gliker-SemiBoldCondensed'),
+        url('Gliker-SemiBoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-SemiBoldCondensed.woff2') format('woff2'),
+        url('Gliker-SemiBoldCondensed.woff') format('woff'),
+        url('Gliker-SemiBoldCondensed.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Extra Expanded';
+    src: url('Gliker-RegularExtraExpanded.eot');
+    src: local('Gliker Regular Extra Expanded'), local('Gliker-RegularExtraExpanded'),
+        url('Gliker-RegularExtraExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-RegularExtraExpanded.woff2') format('woff2'),
+        url('Gliker-RegularExtraExpanded.woff') format('woff'),
+        url('Gliker-RegularExtraExpanded.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker';
+    src: url('Gliker-SemiBold.eot');
+    src: local('Gliker SemiBold'), local('Gliker-SemiBold'),
+        url('Gliker-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-SemiBold.woff2') format('woff2'),
+        url('Gliker-SemiBold.woff') format('woff'),
+        url('Gliker-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker SemiBold Extra Expanded';
+    src: url('Gliker-SemiBoldExtraExpanded.eot');
+    src: local('Gliker SemiBold Extra Expanded'), local('Gliker-SemiBoldExtraExpanded'),
+        url('Gliker-SemiBoldExtraExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-SemiBoldExtraExpanded.woff2') format('woff2'),
+        url('Gliker-SemiBoldExtraExpanded.woff') format('woff'),
+        url('Gliker-SemiBoldExtraExpanded.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker';
+    src: url('Gliker-Regular.eot');
+    src: local('Gliker Regular'), local('Gliker-Regular'),
+        url('Gliker-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-Regular.woff2') format('woff2'),
+        url('Gliker-Regular.woff') format('woff'),
+        url('Gliker-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Bold Semi Expanded';
+    src: url('Gliker-BoldSemiExpanded.eot');
+    src: local('Gliker Bold Semi Expanded'), local('Gliker-BoldSemiExpanded'),
+        url('Gliker-BoldSemiExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-BoldSemiExpanded.woff2') format('woff2'),
+        url('Gliker-BoldSemiExpanded.woff') format('woff'),
+        url('Gliker-BoldSemiExpanded.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker SemiBold Expanded';
+    src: url('Gliker-SemiBoldExpanded.eot');
+    src: local('Gliker SemiBold Expanded'), local('Gliker-SemiBoldExpanded'),
+        url('Gliker-SemiBoldExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-SemiBoldExpanded.woff2') format('woff2'),
+        url('Gliker-SemiBoldExpanded.woff') format('woff'),
+        url('Gliker-SemiBoldExpanded.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gliker Semi Expanded';
+    src: url('Gliker-RegularSemiExpanded.eot');
+    src: local('Gliker Regular Semi Expanded'), local('Gliker-RegularSemiExpanded'),
+        url('Gliker-RegularSemiExpanded.eot?#iefix') format('embedded-opentype'),
+        url('Gliker-RegularSemiExpanded.woff2') format('woff2'),
+        url('Gliker-RegularSemiExpanded.woff') format('woff'),
+        url('Gliker-RegularSemiExpanded.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

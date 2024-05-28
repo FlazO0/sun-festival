@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Perfil</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Festival SUN</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/lineup">Line Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/tickets">Ingressos</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <% if (user) { %>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <%= user.name %>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/profile">Perfil</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/auth/logout">Logout</a>
+                </div>
+              </li>
+        <% } else { %>
+            <li class="nav-item">
+                <a class="nav-link" href="/auth/login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/auth/register">Register</a>
+            </li>
+        <% } %>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1>Perfil de <%= user.name %></h1>
+    <p>Email: <%= user.email %></p>
+    <h2>Ingressos Comprados:</h2>
+    <ul>
+      <% if (user.tickets && user.tickets.length > 0) { %>
+        <% user.tickets.forEach(ticketId => { %>
+          <% const ticket = tickets.find(t => t.id === ticketId); %>
+          <li>
+            Tipo: <%= ticket.type %> - 
+            Preço: R$ <%= ticket.price %> - 
+            Válido: <%= ticket.isValid ? 'Sim' : 'Não' %> - 
+            Nome: <%= ticket.name %> - 
+            CPF: <%= ticket.cpf %> - 
+            Contato: <%= ticket.contact %>
+            <img src="/qrcodes/<%= ticket.id %>.png" alt="QR Code do Ticket">
+          </li>
+        <% }); %>
+      <% } else { %>
+        <li>Você não possui ingressos comprados.</li>
+      <% } %>
+    </ul>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Festival SUN</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/"><img src="/images/logo.png" alt="" srcset="" style="
+        width: 90px;
+    "></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/lineup">Line Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/tickets">Ingressos</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <% if (user) { %>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <%= user.name %>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/profile">Perfil</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/auth/logout">Logout</a>
+                </div>
+              </li>
+        <% } else { %>
+          <li class="nav-item">
+            <a class="nav-link" href="/auth/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/auth/register">Registrar</a>
+          </li>
+        <% } %>
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main">
+    <div class="container">
+        <h1 class="text-center" style="
+    margin-bottom: 100px;
+    font-size: 100px;
+">Line Up</h1>
+        <div class="row">
+            <!-- Card para o artista 30praum -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/30praum.jpg" alt="30praum">
+                    <div class="card-body">
+                        <h5 class="card-title">30praum</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card para o artista Yunk Vino -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/yunkvino.jpg" alt="Yunk Vino">
+                    <div class="card-body">
+                        <h5 class="card-title">Yunk Vino (FT: Ryu)</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card para o artista puma pjl -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/puma_pjl.jpg" alt="puma pjl">
+                    <div class="card-body">
+                        <h5 class="card-title">puma pjl</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card para o artista Veigh -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/Veigh.jpg" alt="Veigh">
+                    <div class="card-body">
+                        <h5 class="card-title">Veigh</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card para o artista SZA -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/SZA.jpg" alt="SZA">
+                    <div class="card-body">
+                        <h5 class="card-title">SZA</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card para o artista kali uchis -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/kali_uchis.jpg" alt="kali uchis">
+                    <div class="card-body">
+                        <h5 class="card-title">kali uchis</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card para o artista Don Toliver -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/Don_Toliver.jpg" alt="Don Toliver">
+                    <div class="card-body">
+                        <h5 class="card-title">Don Toliver</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card para o artista racionais -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/racionais.jpg" alt="racionais">
+                    <div class="card-body">
+                        <h5 class="card-title">racionais</h5>
+                    </div>
+                </div>
+            </div>
+
+
+                        <!-- Card para o artista major rd -->
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img class="card-img-top" src="/images/major_rd.jpg" alt="major rd">
+                                <div class="card-body">
+                                    <h5 class="card-title">major rd</h5>
+                                </div>
+                            </div>
+                        </div>
+
+  
+
+            <!-- Card para o artista Travis Scott -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/Travis_Scott.jpg" alt="Travis Scott">
+                    <div class="card-body">
+                        <h5 class="card-title">Travis Scott</h5>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Card para o artista Negra li -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="/images/Negra_li.jpg" alt="Negra li">
+                    <div class="card-body">
+                        <h5 class="card-title">Negra li</h5>
+                    </div>
+                </div>
+            </div>
+                      <!-- Card para o artista Lil Durk -->
+                      <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="/images/Lil_Durk.jpg" alt="Lil Durk">
+                            <div class="card-body">
+                                <h5 class="card-title">Lil Durk</h5>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+</main>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
