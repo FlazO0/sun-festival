@@ -48,22 +48,7 @@
     <p>Email: <%= user.email %></p>
     <h2>Ingressos Comprados:</h2>
     <ul>
-      <% if (user.tickets && user.tickets.length > 0) { %>
-        <% user.tickets.forEach(ticketId => { %>
-          <% const ticket = tickets.find(t => t.id === ticketId); %>
-          <li>
-            Tipo: <%= ticket.type %> - 
-            Preço: R$ <%= ticket.price %> - 
-            Válido: <%= ticket.isValid ? 'Sim' : 'Não' %> - 
-            Nome: <%= ticket.name %> - 
-            CPF: <%= ticket.cpf %> - 
-            Contato: <%= ticket.contact %>
-            <img src="/qrcodes/<%= ticket.id %>.png" alt="QR Code do Ticket">
-          </li>
-        <% }); %>
-      <% } else { %>
-        <li>Você não possui ingressos comprados.</li>
-      <% } %>
+      <li>Você não possui ingressos comprados.</li>
     </ul>
   </div>
   
