@@ -28,7 +28,7 @@ router.get('/tickets/buy', (req, res) => {
 
 // Página de Perfil (Autenticado)
 router.get('/profile', ensureAuthenticated, (req, res) => {
-  res.render('tickets', { user: req.user });
+  res.render('profile', { user: req.user });
 });
 
 module.exports = router;
