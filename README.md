@@ -14,7 +14,7 @@ Página de contato para dúvidas e feedback dos participantes.
 
 Tecnologias Utilizadas:
 
-HTML5 e CSS3 para a estrutura e o estilo do site.
+EJS e CSS3 para a estrutura e o estilo do site.
 NodeJS para interatividade e funcionalidades dinâmicas.
 Bootstrap para facilitar o desenvolvimento responsivo.
 Git e GitHub para controle de versão e hospedagem do código-fonte.
