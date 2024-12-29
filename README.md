@@ -1,8 +1,5 @@
 # *Projeto: Festival SUN*
 
-
-
-Descrição:
 O Festival SUN é um projeto de Festival com um site desenvolvido para promover e divulgar um festival fictício. Este projeto é uma plataforma online que oferece informações sobre o evento, incluindo detalhes sobre artistas, programação, localização e venda de ingressos. 
 
 Recursos:
@@ -31,11 +28,8 @@ Faça o commit das alterações com mensagens descritivas.
 Faça um push das alterações para o seu fork.
 Envie um pull request para o repositório original.
 
-Licença:
-Este projeto é licenciado sob a Licença MIT. Consulte o arquivo LICENSE.md para obter mais detalhes.
-
 Autor:
 Flavio Luiz
 
-Contato:
-Se tiver alguma dúvida ou sugestão, entre em contato através do email: flazo0@proton.me.
+AVISO:
+Projeto criado especificamente para atender a requisitos de um trabalho acadêmico e para fins de estudo.
